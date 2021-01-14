@@ -1,0 +1,16 @@
+.imgsize
+{
+    height: 400px;
+}
+h5{
+    font-family: poppins;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.imgsize1{
+    height: 50px;
+}
+.bckclr{
+    background-color: #E5E7E9;
+  }

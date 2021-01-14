@@ -1,0 +1,41 @@
+
+p {
+    font-family: Lato;
+  }
+  
+  .front img,
+  .back img {
+    width: 150px;
+    height: 190px;
+    margin: 0 auto;
+  }
+  
+  
+  .tp-wrapper {
+    perspective: 700px;
+  }
+  
+  .tp-box {
+    position: relative;
+    width: 150px;
+    height: 190px;
+    transform-style: preserve-3d;
+    transform: transform 1s;
+    border:  #85929E ;
+    border-style: solid;
+  }
+  .tp-box__side {
+    position: absolute;
+    backface-visibility: hidden;
+    user-select: none;
+  }
+  .tp-box__front {
+    transform: rotateY(0deg);
+  }
+  .tp-box__back {
+    transform: rotateY(180deg);
+   
+  }
+ .bckclr{
+   background-color: #E5E7E9;
+ }
